@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5a84a2;
+    background: #f2f3f7;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar
+{
+    width: 30rem;
+    height: 33rem;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 35px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.calhead
+{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.today button
+{
+    width: 5rem;
+    height: 2rem;
+    align-self: center;
+    border-radius: 3rem;
+}
+
+.previousMonth button
+{
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.nextMonth button
+{
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.weekdays {
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 8px;
+}
+
+.weekday {
+    width: 3rem;
+}
+
+.days
+{
+    
+}
+
+.week
+{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 8px;
+    margin: 5px 0;
+}
+
+.date
+{
+}
+
+.preMonthDate, .nextMonthDate
+{
+    opacity: 0.4;
+}
+
+.calendar button
+{
+    border: none;
+}
+
+.calendar button:hover 
+{
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.calendar button:active
+{
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.calcontent button
+{
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    border-radius: 8px;
+}
+
